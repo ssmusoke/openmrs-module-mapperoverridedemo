@@ -22,9 +22,10 @@
 	</organization>
 
 	<scm>
-		<connection>scm:svn:https://svn.openmrs.org/openmrs-modules/mapperoverridedemo/trunk/</connection>
-		<developerConnection>scm:svn:https://svn.openmrs.org/openmrs-modules/mapperoverridedemo/trunk/</developerConnection>
-		<url>https://svn.openmrs.org/openmrs-modules/mapperoverridedemo/trunk/</url>
+		<connection>scm:git:git@github.com:ssmusoke/openmrs-module-mapperoverridedemo.git</connection>
+		<developerConnection>scm:git:git@github.com:ssmusoke/openmrs-module-mapperoverridedemo.git</developerConnection>
+		<url>scm:git:https://github.com/ssmusoke/openmrs-module-mapperoverridedemo</url>
+		<tag>HEAD</tag>
 	</scm>
 
 	<modules>
