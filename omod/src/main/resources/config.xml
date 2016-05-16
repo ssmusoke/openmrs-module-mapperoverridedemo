@@ -19,15 +19,28 @@
 	<!-- Required Modules -->
 	<require_modules>
 																											
+
+		<require_module version="2.8">
+			org.openmrs.module.appframework
+		</require_module>
+		<require_module version="1.5">
+			org.openmrs.module.appui
+		</require_module>
+		<require_module version="1.13">
+			org.openmrs.module.emrapi
+		</require_module>
 		<require_module version="3.6">
 			org.openmrs.module.uiframework
+		</require_module>
+		<require_module version="2.3">
+			org.openmrs.module.referenceapplication
 		</require_module>
 			
 	</require_modules>
 	<!-- / Required Modules -->
 	
 	<!-- Module Activator -->
-	<activator>${project.parent.groupId}.${project.parent.artifactId}.RequestMapperOverrideDemoActivator</activator>
+	<activator>${project.parent.groupId}.${project.parent.artifactId}.RequestMapperDemoActivator</activator>
 	
 	
 	<!-- Maps hibernate file's, if present -->
